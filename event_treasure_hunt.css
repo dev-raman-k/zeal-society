@@ -32,16 +32,16 @@
     width: 50%;
 }
  .event-discription{
-    color: #fefefe;
-    display: flex;
-    padding: 40px;
-    line-height: 30px;
-    justify-content: center;
-    text-align: justify;
-    align-items: center; 
-    flex-flow: column;
-    background-color: #032646;
-    margin: 100px;
+  color: black;
+  display: flex;
+  padding: 40px;
+  line-height: 30px;
+  justify-content: center;
+  text-align: justify;
+  align-items: center; 
+  flex-flow: column;
+  background-color: grey;
+  margin: 100px;
 } 
 .slider {
   position: relative;
