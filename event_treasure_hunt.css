@@ -40,7 +40,7 @@
   text-align: justify;
   align-items: center; 
   flex-flow: column;
-  background-color: rgb(227, 227, 227);
+  background-color: lightgray;
   margin: 100px;
 } 
 .slider {
