@@ -1,0 +1,226 @@
+.event-banner{
+    display: flex;
+    width: 100%;
+    background-color: #032646;
+    color: #fefefe;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.event-container{
+    background-color: #11101b;
+    display: inline;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.event-container .event-card{
+    display: flex;
+    flex-flow: row;
+    width: 80%;
+}
+
+.event-container .event-card .event-left{
+    color: #fefefe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+ .event-discription{
+    color: #fefefe;
+    display: flex;
+    padding: 40px;
+    line-height: 30px;
+    justify-content: center;
+    text-align: justify;
+    align-items: center; 
+    flex-flow: column;
+    background-color: #032646;
+    margin: 100px;
+} 
+.slider {
+  position: relative;
+  width: 100%;
+
+}
+.slide img {
+  width: 100%;
+}
+.arrow {
+  cursor:pointer;
+  position: absolute;
+  top: 45%;
+  color: #032646;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 8px 18px;
+  border-radius: 50%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.next {
+  right: 10px;
+}
+.prev {
+  left: 10px;
+}
+.slide {
+  transition: 1s ease-in-out;
+  margin: 100px;
+  display: none;
+}
+.event-container .event-card .event-right h4 {
+    color: #3595dd;
+    text-decoration: underline;
+}
+.event-container .event-card .event-right h4:hover {
+    color: #72c2ff;
+    text-decoration: underline;
+}
+.event-container .event-card .event-right h4:active {
+    color: #b0ddff;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.winners{
+  color: coral;
+  font-weight: 600;
+  padding: 4px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+  font-size: 35px;
+}
+
+.winner_container {
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.winner-box {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin: 15px;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+.winner {
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+}
+/* .gap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* .gap img{
+    width: 70%;
+} */
+
+.winner-name {
+  color: coral;
+  font-weight: 500;
+  padding: 4px;
+  border-radius: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.winners_container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  margin: 15px;
+  border-radius: 15px;
+  margin-top: 30px;
+  border: 5px ridge silver;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.alumni_info {
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front,
+.flip-box-back {
+  border-radius: 15px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-box-back {
+  background-color: rgb(59 130 246 / 0.5);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.linkedin_link a {
+  align-items: center;
+}
+
+.linkedin_link img {
+  margin-left: 127px;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+
+.image {
+  height: 290px;
+  width: 290px;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(255, 247, 174);
+  text-decoration: underline;
+}

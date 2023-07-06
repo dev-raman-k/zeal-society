@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="node-modules/bootstrap.min.css" />
+  <link rel="stylesheet" href="event_treasure_hunt.css">
+  <link rel="stylesheet" href="top.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events - Treasure Hunt</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="assets/logo.png" alt="logo" />
+    </div>
+    <div class="hamburger">
+      <div class="content"></div>
+      <div class="content"></div>
+      <div class="content"></div>
+    </div>
+    <nav class="nav-bar">
+      <ul>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="event.html" id="active">Events</a>
+        </li>
+        <li>
+          <a href="Alumni/alumni.html">Alumni</a>
+        </li>
+        <li>
+          <a href="">About</a>
+        </li>
+        <li>
+          <a href="index.html#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+  <div class="event-banner">
+    <h1>Treasure Hunt</h1>
+  </div>
+  <div class="event-container">
+    <div class="event-images">
+      <div class="slider">
+      
+        <div class="slide">
+          <img src="assets/1.png" alt="Image 1">
+        </div>
+        <div class="slide">
+          <img src="assets/2.png" alt="Image 2">
+        </div>
+        <div class="slide">
+          <img src="assets/3.png" alt="Image 3">
+        </div>
+        <div class="slide">
+          <img src="assets/4.png" alt="Image 4">
+        </div>
+        <div class="slide">
+          <img src="assets/5.png" alt="Image 5">
+        </div>
+        <div class="slide">
+          <img src="assets/6.png" alt="Image 6">
+        </div>
+        <span class="arrow prev" onclick="ctrl(-1)">&#10094;</span>
+        <span class="arrow next" onclick="ctrl(1)">&#10095;</span>
+      </div>
+     </div>
+    <div class="event-discription">
+      <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero amet vero maiores saepe inventore. Aperiam
+        omnis ad delectus harum officia quaerat autem? Consequatur, itaque amet? Lorem ipsum dolor, sit amet consectetur
+        adipisicing elit. Ipsa necessitatibus laboriosam, at, quisquam natus nihil similique sapiente nostrum quaerat
+        possimus neque quos repellendus! Placeat facilis recusandae illo quasi excepturi? A cum odio ad ab debitis ipsum
+        nam eius officia earum maiores deserunt voluptas, rem repellat error tempore beatae ipsam necessitatibus quis
+        soluta. Iure saepe tenetur dolor itaque delectus necessitatibus ullam, sunt deserunt consectetur recusandae illo
+        maiores reprehenderit repellendus nisi corrupti nobis placeat. Et in animi ipsum ullam exercitationem voluptate
+        ab. Ipsa culpa assumenda magni. Iure aperiam tempore quas ipsum itaque iusto fugiat explicabo dolore vero natus,
+        necessitatibus dolorem id expedita pariatur perferendis aspernatur? Reprehenderit neque consequuntur eius.
+        Commodi, ad sunt? Similique eveniet autem fuga laboriosam quos dolor aliquid, nam laborum sit, sint ad explicabo
+        quisquam nobis quis dolorem optio quaerat distinctio aliquam rerum iste perspiciatis possimus recusandae minima?
+        Consequatur illum rerum perferendis beatae suscipit asperiores minima, quo mollitia quidem maxime!</h3>
+    </div>
+    <section class="alumni_body" id="body">
+      <h3 class="winners">Winners</h3>
+      <div class="winners_container">
+          <div class="flip-box">
+              <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                      <img src="assets/s3.jpg" alt="Alumni" class="image">
+                      <h3 class="winner-name">Winner 1 Name</h3>
+                  </div>
+                  <div class="flip-box-back">
+                      <p class="alumni_info">Winner 1</p>
+                      <a href="" class="linkedin_link"
+                          target="_blank"><img src="Alumni/alumni_assets/linkedin.png" alt="linkedin"></a>
+                      <p class="alumni_info">Bachelor's (Branch)</p>
+                      <p class="alumni_info">(Batch)</p>
+                  </div>
+              </div>
+          </div>
+          <div class="flip-box">
+              <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                      <img src="assets/s3.jpg" alt="Alumni" class="image">
+                      <h3 class="winner-name">Winner 2 Name</h3>
+                  </div>
+                  <div class="flip-box-back">
+                      <p class="alumni_info">Winner 2</p>
+                      <a href="" class="linkedin_link"
+                          target="_blank">
+                          <img src="Alumni/alumni_assets/linkedin.png" alt="linkedin">
+                      </a>
+                      <p class="alumni_info">Bachelor's (Branch)</p>
+                      <p class="alumni_info">(Batch)</p>
+                  </div>
+              </div>
+          </div>
+          <div class="flip-box">
+              <div class="flip-box-inner">
+                  <div class="flip-box-front">
+                      <img src="assets/s3.jpg" alt="Alumni" class="image">
+                      <h3 class="winner-name">Winner 3 Name</h3>
+                  </div>
+                  <div class="flip-box-back">
+                      <p class="alumni_info">Winner 3</p>
+                      <a href="" class="linkedin_link"
+                          target="_blank">
+                          <img src="Alumni/alumni_assets/linkedin.png" alt="linkedin">
+                      </a>
+                      <p class="alumni_info">Bachelor's (Branch)</p>
+                      <p class="alumni_info">(Batch)</p>
+                  </div>
+              </div>
+          </div>
+  </section>
+  </div>
+  <!-- <div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn">&times;</div>
+      <h1>Title</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, praesentium alias et veritatis quo
+        perspiciatis porro soluta reiciendis exercitationem tenetur sit, repellendus at libero. Placeat corporis earum
+        obcaecati in iusto.</p>
+    </div>
+  </div> -->
+  <footer>
+    <div class="footer-content">
+      <div class="col">
+        <div class="title">Social</div>
+        <div class="icons">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100086880999607" target="_blank"
+                class="fa fa-facebook"></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/zealnitj/" target="_blank" class="fa fa-instagram"></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/company/zeal-society-nitj/" target="_blank" class="fa fa-linkedin"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="title">Contact Details: </div>
+        <div class="text">
+          <ul>
+            <li>Email: <a href="mailto:zeal@nitj.ac.in" target="_blank">zeal@nitj.ac.in</a> </li>
+            <li>Address: <a href="https://goo.gl/maps/DFxVHCEnUwveCvSA7" target="_blank">G.T Road, Amritsar Bypass,
+                Jalandhar, Punjab, India-144008</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="title">Pages</div>
+        <div class="text">
+          <ul>
+            <li> <a href="#" target="_blank">About</a></li>
+            <li> <a href="event.html" target="_blank">Events</a></li>
+            <li> <a href="#" target="_blank">Gallery</a></li>
+            <li> <a href="Alumni/alumni.html" target="_blank">Alumini</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col">
+        <div class="title">Developed by</div>
+        <div class="text">Team members</div>
+      </div>
+      <div class="col">
+        <div class="title">Location</div>
+        <iframe class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.6622730186978!2d75.53326897549006!3d31.395874574271172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a51d30c180edf%3A0x5b7633718d17ef33!2sDr%20B%20R%20Ambedkar%20National%20Institute%20of%20Technology%20Jalandhar!5e0!3m2!1sen!2sin!4v1685788215616!5m2!1sen!2sin"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+    </div>
+    <div class="copyright">
+      Copyright 2022-23 by ZEAL Society (NITJ). All rights reserved.
+    </div>
+  </footer>
+
+</body>
+<script src="script.js"></script>
+<script src="top.js"></script>
+<script src="event_treasure_hunt.js"></script>
+<!-- <script src="event_treasure_hunt.js"></script> -->
+
+</html>

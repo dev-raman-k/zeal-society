@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:  'Port Lligat Sans', sans-serif;
+}
+
+#header {
+  height: 400px;
+  position: relative;
+  background-color: aquamarine;
+  border-bottom: blue;
+}
+
+.header-home {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(alumni_assets/alumni_desktop.png);
+}
+
+#title {
+  position: relative;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-weight: 700;
+}
+
+#name {
+  display: inline-block;
+  text-decoration: none;
+  color: gold;
+  font-size: 20px;
+  padding: 5px;
+  border: 3px ridge gold;
+  border-radius: 20px;
+}
+#name:hover {
+  color: rgb(4, 255, 0);
+  border-color: rgb(4, 255, 0);
+}
+#logopic img {
+  margin-top: 100px;
+  width: 65px;
+  height: 65px;
+}
+
+#follow {
+  text-decoration: none;
+  color: aliceblue;
+  transition: 0.6s ease;
+  font-size: 30px;
+}
+
+#follow:hover {
+  color: rgb(0, 255, 17);
+}
+
+#heading {
+  background-color: #032e51;
+  text-decoration: underline;
+  background-size: cover;
+  text-align: center;
+  font-weight: 400;
+  font-size: 35px;
+  color: rgb(255, 247, 174);
+  padding: 10px;
+}
+
+@media (max-width: 1200px) {
+  #name {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  #header {
+    height: 400px;
+  }
+  #name {
+    display: block;
+  }
+  .header-home {
+    background-image: url(alumni_phone.png);
+  }
+}
+
+@media (max-width: 1300px) {
+  .photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .pic {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .photos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pic {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  #name {
+    font-size: 16px;
+  }
+  .pic {
+    max-width: 350px;
+  }
+  .img {
+    max-width: 200px;
+  }
+  #logopic img {
+    height: 45px;
+    width: 45px;
+  }
+}
