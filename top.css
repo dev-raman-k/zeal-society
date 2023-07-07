@@ -11,9 +11,11 @@
     color: white;
     cursor: pointer;
     padding: 15px;
-    border-radius: 4px;
+    border-radius: 50%;
   }
   
   #myBtn:hover {
-    background-color: #555;
+    transition: 0.3s ease;
+    background-color: rgb(127, 196, 249);
+    color: #406e8e;
   }

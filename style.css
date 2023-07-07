@@ -629,4 +629,7 @@ footer {
   .footer-content .col {
     margin: 5px;
   }
+  .footer-content .col .icons ul li {
+    display: inline;
+  }
 }
