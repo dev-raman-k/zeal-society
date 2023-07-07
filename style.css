@@ -47,6 +47,9 @@ header {
 .hamburger {
   display: none;
 }
+header {
+  position: fixed;
+}
 
 .nav-bar ul {
   display: flex;
