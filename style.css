@@ -466,7 +466,7 @@ img {
   }
 }
 
-.reply-container {
+/* .reply-container {
   position: relative;
   display: flex;
   justify-content: center;
@@ -518,7 +518,7 @@ img {
 .input-message {
   text-decoration: none;
   width: 60%;
-  /* height: 30px; */
+  /* height: 30px; 
   border-radius: 5px;
   margin: 10px;
   outline: none;
@@ -540,6 +540,71 @@ img {
 
 .btn:hover {
   background: #406e8e;
+} */
+.reply {
+  margin-top: 80px;
+  background-image: linear-gradient(#032e51, #3595dd);
+  background-size: cover;
+  padding: 20px;
+}
+.reply-heading {
+  text-align: center;
+  color: #fefefe
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  color: white;
+  display: block;
+  margin-top: 10px;
+}
+#name,
+#email,
+#message {
+  background-color: rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  text-decoration: none;
+  color: #8beaff;
+  font-size: 20px;
+  padding: 5px;
+  border: 3px ridge #acdcff;
+  border-radius: 20px;
+}
+#name:hover,
+#email:hover,
+#message:hover {
+  color: #8beaff;
+  border-color: #00687f
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  align-items: center;
+}
+
+button[type="submit"]:hover {
+  background-color: #032646;
+}
+button[type="submit"]:active {
+  background-color: #45a049;
 }
 
 footer {
