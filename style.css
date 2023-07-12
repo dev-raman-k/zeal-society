@@ -88,6 +88,9 @@ header {
 }
 
 @media only screen and (max-width: 900px) {
+  header {
+    position: unset;
+  }
   .hamburger {
     display: block;
     cursor: pointer;
