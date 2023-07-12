@@ -2,18 +2,19 @@
 
 .about-section{
     background: url(assets/about-us.jpg) no-repeat left;
-    background-size: 55%;
+    background-size: 50%;
     background-color: #11101b;
     overflow: hidden;
     padding: 100px 0;
 }
 
 .inner-container{
-    width: 55%;
+    width: 50%;
     float: right;
     background-color: #032e51;
     transition: transform .5s;
     padding: 150px;
+    height: 600px;
 }
 
 .inner-container h1{
@@ -31,9 +32,9 @@
     margin-bottom: 40px;
 }
 
-.inner-container:hover{
+/* .inner-container:hover{
     transform: scale(1.09);
-}
+} */
 @media screen and (max-width:1200px){
     .inner-container{
         padding: 80px;

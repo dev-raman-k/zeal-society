@@ -260,15 +260,32 @@ body {
   color: #fefefe;
 }
 
-.about-content .aboutRect a {
-  text-decoration: none;
+.redirect-link {
+  color: #3595dd;
+  font-size: 18px;
+  text-decoration: underline;
   display: flex;
   margin-top: 10px;
   width: 100%;
   justify-content: center;
   align-items: center;
 }
-
+.about-content .aboutRect a {
+  color: #032646;
+  font-size: 18px;
+  text-decoration: underline;
+  display: flex;
+  margin-top: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.about-content .aboutRect a:hover, .redirect-link:hover {
+  color: #fefefe;
+}
+.about-content .aboutRect a:active, .redirect-link:active {
+  color: #8beaff;
+}
 .ourAim {
   width: 100%;
   margin-top: 40px;
@@ -304,17 +321,17 @@ body {
 
 @keyframes changeImage {
   0% {
-    background-image: url(/assets/s1.jpg);
+    background-image: url(/assets/1.png);
   }
   33.33% {
-    background-image: url(/assets/s2.jpg);
+    background-image: url(/assets/2.png);
   }
 
   66.66% {
-    background-image: url(/assets/s3.jpg);
+    background-image: url(/assets/3.png);
   }
   100% {
-    background-image: url(/assets/s1.jpg);
+    background-image: url(/assets/4.png);
   }
 }
 
@@ -326,6 +343,48 @@ body {
   width: 50%;
 }
 .aimLeft p {
+  text-align: justify;
+  font-size: 25px;
+  color: #fefefe;
+}
+.faculty-message-heading {
+  width: 100%;
+  margin-top: 40px;
+  padding: 20px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fefefe;
+}
+
+.faculty-message {
+  padding: 20px;
+  flex-flow: row;
+  max-width: 1000px;
+  background: #406e8e;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.faculty {
+  width: 50%;
+}
+.falulty img{
+  height: 400px;
+  /* width: 500px; */
+  padding-right: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.msg {
+  width: 50%;
+}
+.msg p {
   text-align: justify;
   font-size: 25px;
   color: #fefefe;
@@ -405,6 +464,11 @@ body {
   position: relative;
   text-align: center;
   padding: 0 18px;
+}
+.event-card img {
+  
+  width: 250px;
+  height: 300px;
 }
 img {
   border-radius: 10px;
