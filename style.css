@@ -650,7 +650,9 @@ textarea {
   width: 100%;
   padding: 5px;
 }
-
+textarea {
+  resize: vertical;
+}
 button[type="submit"] {
   display: block;
   font-size: 18px;
