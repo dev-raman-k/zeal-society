@@ -464,6 +464,7 @@ width: 400px;
     height: 200px;
     width: 200px;
   }
+  
 }
 .event-contain {
   display: flex;
@@ -816,3 +817,9 @@ footer {
     display: inline;
   }
 }
+@media only screen and (max-width: 450px) {
+  .text {
+    font-size: 39px;
+  }
+}
+
