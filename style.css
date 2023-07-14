@@ -698,8 +698,12 @@ textarea {
 textarea {
   resize: vertical;
 }
+.sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 button[type="submit"] {
-  display: block;
   font-size: 18px;
   margin-top: 10px;
   padding: 8px 16px;
@@ -708,7 +712,6 @@ button[type="submit"] {
   border: none;
   border-radius: 20px;
   cursor: pointer;
-  align-items: center;
 }
 
 button[type="submit"]:hover {
