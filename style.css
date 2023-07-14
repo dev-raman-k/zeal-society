@@ -761,7 +761,12 @@ footer {
 .footer-content .col .text ul li a {
   text-decoration: none;
   color: #032646;
+  line-height: 28px;
 }
+/* .footer-content .col .text ul li a {
+  text-decoration: none;
+  color: #032646;
+} */
 .footer-content .col .text ul li a:hover,
 .footer-content .col .icons a:hover {
   color: #8beaff;
