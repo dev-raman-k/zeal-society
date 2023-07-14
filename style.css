@@ -447,6 +447,13 @@ width: 400px;
   }
 }
 @media only screen and (max-width: 470px) {
+  .aimRect {
+  padding: 0;
+    flex-flow: column;
+  }
+  .aimRight, .aimLeft {
+    width: 80%;
+  }
   .aboutUs {
     font-size: 20px;
   }
