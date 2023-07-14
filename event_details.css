@@ -4,8 +4,9 @@
   background-color: #032646;
   color: #fefefe;
   height: 300px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   font-size: 30px;
 }
 
@@ -16,6 +17,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+ 
 }
 
 .event-container .event-card {
@@ -42,6 +44,7 @@
   flex-flow: column;
   background-color: #d9d9d9;
   margin: 100px;
+  border: 4px ridge silver;
 }
 .slider {
   position: relative;
@@ -76,11 +79,7 @@
 .prev:active {
   background-color: #0091ff;
 }
-.slide {
-  transition: 1s ease-in-out;
-  margin: 100px;
-  display: none;
-}
+
 .event-container .event-card .event-right h4 {
   color: #3595dd;
   text-decoration: underline;
@@ -223,4 +222,26 @@ h2 {
   text-align: center;
   color: rgb(255, 247, 174);
   text-decoration: underline;
+}
+@media only screen and (max-width: 900px) {
+  .event-banner {
+    font-size: 20px;
+  }
+  .event-discription {
+    font-size: 14px;
+    line-height: 30px;
+    padding: 8px;
+    margin: 50px;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .event-banner {
+    font-size: 18px;
+  }
+  .event-discription {
+    font-size: 14px;
+    line-height: 30px;
+    padding: 8px;
+    margin: 25px;
+  }
 }

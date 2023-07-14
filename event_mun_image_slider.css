@@ -1,0 +1,38 @@
+.slide {
+  /* width: 100%; */
+  height: 350px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: changeBack 20s infinite;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  animation-fill-mode: forwards;
+}
+@keyframes changeBack {
+  0% {
+    background-image: url(assets/MUN/1.png);
+  }
+  16.67% {
+    background-image: url(assets/MUN/2.png);
+  }
+  33.33% {
+    background-image: url(assets/MUN/3.png);
+  }
+  50% {
+    background-image: url(assets/MUN/4.png);
+  }
+  66.66% {
+    background-image: url(assets/MUN/5.png);
+  }
+  100% {
+    background-image: url(assets/MUN/6.png);
+  }
+}
+@media only screen and (max-width: 900px) {
+  .slide {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 250px;
+  }
+}
