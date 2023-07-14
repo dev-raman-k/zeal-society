@@ -421,7 +421,7 @@ width: 400px;
   }
 }
 @media only screen and (max-width: 900px) {
-  .ourAim {
+  .aimLeft p {
     font-size: 30px;
   }
   .aboutRect .aboutText {
@@ -450,7 +450,7 @@ width: 400px;
   .aboutUs {
     font-size: 20px;
   }
-  .ourAim {
+  .aimLeft p {
     font-size: 20px;
   }
   #faculty img {
