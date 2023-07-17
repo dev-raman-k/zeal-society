@@ -106,7 +106,6 @@
     flex-flow: column;
   }
   .event-container .event-card .event-left {
-    display: block;
     width: 100%;
   }
   .event-container .event-card .event-right {
