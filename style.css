@@ -12,6 +12,17 @@
 body {
   background: #fefefe;
 }
+#body {
+  overflow: hidden;
+}
+#loader {
+  background: black url(assets/logoGIF.gif) no-repeat center center;
+  background-size: 30%;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 2500;
+}
 
 header {
   width: 100%;
@@ -213,7 +224,6 @@ canvas {
 body {
   background-color: #032e51;
   margin: 0;
-  overflow: auto;
 }
 
 .aboutUs {

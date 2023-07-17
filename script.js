@@ -90,3 +90,10 @@ window.onload = function (argument) {
     return words;
   }
 };
+
+var loader = document.getElementById("loader");
+var bdy = document.getElementById("body");
+window.addEventListener("load", setTimeout(() => {
+  loader.style.display = "none",
+  bdy.style.overflow = "auto";
+}, 4000))
