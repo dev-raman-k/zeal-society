@@ -79,13 +79,14 @@
   text-decoration: underline;
 }
 .gap {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  display: none;
 }
-.gap img {
+/* .gap img {
   width: 70%;
-}
+} */
 
 @media only screen and (max-width: 900px) {
   .event-container .event-card .event-right h2 {
@@ -99,9 +100,9 @@
     width: 100%;
     height: 60%;
   }
-  .gap {
+  /* .gap {
     display: none;
-  }
+  } */
   .event-container .event-card {
     flex-flow: column;
   }
