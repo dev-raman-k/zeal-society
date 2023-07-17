@@ -31,7 +31,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* flex-flow: row; */
   width: 50%;
 }
 
@@ -99,5 +98,18 @@
   .event-container .event-card .event-left img {
     width: 100%;
     height: 60%;
+  }
+  .gap {
+    display: none;
+  }
+  .event-container .event-card {
+    flex-flow: column;
+  }
+  .event-container .event-card .event-left {
+    display: block;
+    width: 100%;
+  }
+  .event-container .event-card .event-right {
+    width: 100%;
   }
 }
