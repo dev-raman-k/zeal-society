@@ -474,7 +474,9 @@ width: 400px;
     height: 200px;
     width: 200px;
   }
-  
+  #loader {
+    background-size: 70%;
+  }
 }
 .event-contain {
   display: flex;
