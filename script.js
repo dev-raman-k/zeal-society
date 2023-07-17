@@ -97,5 +97,5 @@ window.addEventListener(
   "load",
   setTimeout(() => {
     (loader.style.display = "none"), (bdy.style.overflow = "auto");
-  }, 2800)
+  }, 3200)
 );
