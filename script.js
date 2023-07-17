@@ -96,4 +96,4 @@ var bdy = document.getElementById("body");
 window.addEventListener("load", setTimeout(() => {
   loader.style.display = "none",
   bdy.style.overflow = "auto";
-}, 2500))
+}, 3200))

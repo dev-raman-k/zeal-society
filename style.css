@@ -16,7 +16,7 @@ body {
   overflow: hidden;
 }
 #loader {
-  background: black url(assets/logoGIF.gif) no-repeat center center;
+  background: #032646 url(assets/loader.gif) no-repeat center center;
   background-size: 30%;
   position: fixed;
   height: 100%;
