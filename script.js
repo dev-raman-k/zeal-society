@@ -93,7 +93,9 @@ window.onload = function (argument) {
 
 var loader = document.getElementById("loader");
 var bdy = document.getElementById("body");
-window.addEventListener("load", setTimeout(() => {
-  loader.style.display = "none",
-  bdy.style.overflow = "auto";
-}, 3200))
+window.addEventListener(
+  "load",
+  setTimeout(() => {
+    (loader.style.display = "none"), (bdy.style.overflow = "auto");
+  }, 3200)
+);

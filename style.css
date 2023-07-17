@@ -337,8 +337,8 @@ body {
   width: 400px; */
 }
 #faculty img {
-height: 400px;
-width: 400px;
+  height: 400px;
+  width: 400px;
 }
 .faculty-msg {
   padding: 10px;
@@ -351,10 +351,12 @@ width: 400px;
   color: #fefefe;
 }
 
-.about-content .aboutRect a:hover, .redirect-link:hover {
+.about-content .aboutRect a:hover,
+.redirect-link:hover {
   color: #fefefe;
 }
-.about-content .aboutRect a:active, .redirect-link:active {
+.about-content .aboutRect a:active,
+.redirect-link:active {
   color: #8beaff;
 }
 .ourAim {
@@ -458,10 +460,11 @@ width: 400px;
 }
 @media only screen and (max-width: 470px) {
   .aimRect {
-  padding: 0;
+    padding: 0;
     flex-flow: column;
   }
-  .aimRight, .aimLeft {
+  .aimRight,
+  .aimLeft {
     width: 80%;
   }
   .aboutUs {
@@ -523,7 +526,6 @@ width: 400px;
   padding: 0 18px;
 }
 .event-card img {
-  
   width: 250px;
   height: 300px;
 }
@@ -670,7 +672,7 @@ img {
 }
 .reply-heading {
   text-align: center;
-  color: #fefefe
+  color: #fefefe;
 }
 
 form {
@@ -699,7 +701,7 @@ label {
 #email:hover,
 #message:hover {
   color: #8beaff;
-  border-color: #00687f
+  border-color: #00687f;
 }
 input[type="text"],
 input[type="email"],
@@ -837,4 +839,3 @@ footer {
     font-size: 39px;
   }
 }
-

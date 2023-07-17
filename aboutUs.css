@@ -1,65 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Port+Lligat+Sans&display=swap");
 
-.about-section{
-    background: url(assets/about-us.jpg) no-repeat left;
-    background-size: 50%;
-    background-color: #11101b;
-    overflow: hidden;
-    padding: 100px 0;
+.about-section {
+  background: url(assets/about-us.jpg) no-repeat left;
+  background-size: 50%;
+  background-color: #11101b;
+  overflow: hidden;
+  padding: 100px 0;
 }
 
-.inner-container{
-    width: 50%;
-    float: right;
-    background-color: #032e51;
-    transition: transform .5s;
-    padding: 150px;
-    height: 600px;
+.inner-container {
+  width: 50%;
+  float: right;
+  background-color: #032e51;
+  transition: transform 0.5s;
+  padding: 150px;
+  height: 600px;
 }
 
-.inner-container h1{
-    margin-bottom: 30px;
-    font-size: 30px;
-    color: #f1f1f1;
-    font-weight: 900;
+.inner-container h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #f1f1f1;
+  font-weight: 900;
 }
 
-.about-text{
-    font-size: 18px;
-    color: #fbfbfb;
-    line-height: 30px;
-    text-align: justify;
-    margin-bottom: 40px;
+.about-text {
+  font-size: 18px;
+  color: #fbfbfb;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
 }
 
 /* .inner-container:hover{
     transform: scale(1.09);
 } */
-@media screen and (max-width:1200px){
-    .inner-container{
-        padding: 80px;
-    }
+@media screen and (max-width: 1200px) {
+  .inner-container {
+    padding: 80px;
+  }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 1000px) {
+  .about-section {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
 
-    .about-section{
-        background-size: 100%;
-        padding: 100px 40px;
-    }
-    
-    .inner-container{
-        width: 100%;
-    }
+  .inner-container {
+    width: 100%;
+  }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
+  .about-section {
+    padding: 0;
+  }
 
-    .about-section{
-        padding: 0;
-    }
-    
-    .inner-container{
-        padding: 60px;
-    }
+  .inner-container {
+    padding: 60px;
+  }
 }
