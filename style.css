@@ -262,7 +262,7 @@ body {
 
 .aboutRect .aboutText {
   font-weight: 400px;
-  font-size: 25px;
+  font-size: 22px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -434,16 +434,16 @@ body {
 }
 @media only screen and (max-width: 900px) {
   .aimLeft p {
-    font-size: 30px;
+    font-size: 22px;
   }
   .aboutRect .aboutText {
     font-size: 20px;
   }
   .aboutUs {
-    font-size: 30px;
+    font-size: 22px;
   }
   .aimLeft p {
-    font-size: 30px;
+    font-size: 22px;
   }
   .empty {
     height: 400px;
