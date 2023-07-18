@@ -710,6 +710,8 @@ textarea {
   padding: 5px;
 }
 textarea {
+  min-height: 150px;
+  max-height: 500px;
   resize: vertical;
 }
 .sub {

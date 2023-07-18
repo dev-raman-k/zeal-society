@@ -201,18 +201,18 @@
   <div id="contact"></div>
   <div class="reply">
     <h2 class="reply-heading">Leave a Reply</h2>
-    <form id="replyForm" action="https://formsubmit.co/zeal@nitj.ac.in" method="POST">
+    <form name="myform" id="replyForm" action="https://formsubmit.co/zeal@nitj.ac.in" method="POST" onsubmit="return validateemail();">
       <input type="hidden" name="_captcha" value="false">
       <input type="hidden" name="_next" value="https://zeal-society.netlify.app/index.html">
 
       <label for="name">Name:</label>
-      <input title="Enter Your Name" maxlength="80" type="text" id="name" name="name" placeholder="Your name" autocomplete="off" required>
+      <input title="Enter Your Name" maxlength="60" type="text" id="name" name="name" placeholder="Your name" autocomplete="off" required>
 
       <label for="email">Email:</label>
-      <input title="Enter Your Email" type="email" id="email" name="email" placeholder="Your email" autocomplete="off" required>
+      <input title="Enter Your Email" type="text" id="email" name="email" placeholder="Your email" autocomplete="off" required>
 
       <label for="message">Message:</label>
-      <textarea title="Enter Your Message"  maxlength="500" id="message" name="message" rows="5" placeholder="Type your message here..."
+      <textarea title="Enter Your Message"  maxlength="1000" id="message" name="message" rows="5" placeholder="Type your message here..."
         autocomplete="off" required></textarea>
       <div class="sub">
         <button type="submit">Submit</button>
