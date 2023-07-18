@@ -245,21 +245,26 @@ h2 {
   }
 }
 .go-back {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
+  /* align-items: center; */
+  /* justify-content: center; */
   margin: 40px;
 }
 .go-back p {
   font-size: 18px;
-  text-align: center;
+  /* text-align: center; */
   color: #d9d9d9;
 }
-.go-back p a {
-  text-decoration: underline;
-  color: #f1f1f1;
-}
-.go-back p a:hover {
-  text-decoration: none;
+.go-back p button {
+  padding: 10px;
   color: #0091ff;
+  background-color: #032646;
+  cursor: pointer;
+  /* border: 3px #72c2ff ridge; */
+  border-radius: 50%;
+  transition: 0.2s ease-in-out;
+}
+.go-back p button:hover {
+  text-decoration: none;
+  color: #f1f1f1;
 }
