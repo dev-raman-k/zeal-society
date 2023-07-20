@@ -7,7 +7,6 @@
   overflow: hidden;
   padding: 100px 0;
 }
-
 .inner-container {
   width: 50%;
   float: right;
@@ -17,13 +16,24 @@
   height: 600px;
 }
 
-.inner-container h1 {
+.inner-container h1{
   margin-bottom: 30px;
   font-size: 30px;
   color: #f1f1f1;
   font-weight: 900;
 }
-
+.outer-container {
+  background-color: #032e51;
+  transition: transform 0.5s;
+  padding: 50px;
+  display: none;
+}
+.outer-container h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: #f1f1f1;
+  font-weight: 900;
+}
 .about-text {
   font-size: 18px;
   color: #fbfbfb;
@@ -43,18 +53,25 @@
 
 @media screen and (max-width: 1000px) {
   .about-section {
+    height: 500px;
     background-size: 100%;
-    padding: 100px 40px;
+    padding: 20px;
   }
 
   .inner-container {
     width: 100%;
   }
+  .inner-container {
+    display: none;
+  }
+  .outer-container {
+    display: block;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .about-section {
-    padding: 0;
+    padding: 20px;
   }
 
   .inner-container {
