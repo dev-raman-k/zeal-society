@@ -246,13 +246,10 @@ h2 {
 }
 .go-back {
   display: inline-block;
-  /* align-items: center; */
-  /* justify-content: center; */
   margin: 40px;
 }
 .go-back p {
   font-size: 18px;
-  /* text-align: center; */
   color: #d9d9d9;
 }
 .go-back p button {
@@ -260,7 +257,6 @@ h2 {
   color: #0091ff;
   background-color: #032646;
   cursor: pointer;
-  /* border: 3px #72c2ff ridge; */
   border-radius: 50%;
   transition: 0.2s ease-in-out;
 }

@@ -328,13 +328,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* position: relative; */
-  /* height: fit-content; */
-  /* width: fit-content; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* height: 400px;
-  width: 400px; */
 }
 #faculty img {
   height: 400px;
@@ -344,9 +337,6 @@ body {
   padding: 10px;
   font-weight: 400px;
   font-size: 22px;
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
   text-align: justify;
   color: #fefefe;
 }
