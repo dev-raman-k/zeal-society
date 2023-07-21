@@ -20,17 +20,20 @@ a:link {
   font-size: 64px;
   text-align: center;
 }
-.row {
-  width: 60%;
-  margin: auto;
+.z-row {
+
+  width: 100%;
+  margin: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-left: 10px;
 }
 
 .container {
-  padding: 2px 16px;
+  margin: 0;
+  /* padding: 2px 16px; */
   padding-bottom: 10px;
 }
 
@@ -80,4 +83,15 @@ img {
   outline: var(--b) solid var(--c);
   outline-offset: calc(var(--s) / -2);
   --_i: calc(100% - 2 * var(--s));
+}
+
+@media only screen and (max-width: 850px) {
+  .card img {
+    --w: 300px;
+  }
+}
+@media only screen and (max-width: 370px) {
+  .card img {
+    --w: 200px;
+  }
 }
