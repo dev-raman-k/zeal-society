@@ -505,6 +505,7 @@ body {
   align-items: center;
   justify-content: center;
   align-content: center;
+  margin-top: 20px;
 }
 .name {
   color: #fefefe;
