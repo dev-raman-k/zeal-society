@@ -11,14 +11,19 @@
 }
 
 .event-container {
-  background-color: #11101b;
   display: inline;
   flex-flow: column;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-
+.event_container_for_tale_a_snap {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 .event-container .event-card {
   display: flex;
   flex-flow: row;
@@ -49,8 +54,15 @@
   position: relative;
   width: 100%;
 }
+
 .slide img {
-  width: 100%;
+  height: 350px;
+  align-items: center;
+  /* background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: changeBack 20s infinite; */
+  border-radius: 15px;
 }
 .arrow {
   cursor: pointer;
