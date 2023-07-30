@@ -35,3 +35,29 @@
     height: 250px;
   }
 } */
+@media only screen and (max-width: 900px) {
+  .slide img{
+    height: 250px;
+    /* width: 80%; */
+  }
+} 
+@media only screen and (max-width: 640px) {
+  .slide img{
+    height: 150px;
+    /* width: 80%; */
+  }
+  .arrow {
+    font-size: 15px;
+  }
+} 
+@media only screen and (max-width: 640px) {
+  .slide img{
+    height: 140px;
+    /* width: 80%; */
+  }
+  .arrow {
+    border-radius: 100%;
+    padding: 8px 15px;
+    font-size: 15px;
+  }
+} 
