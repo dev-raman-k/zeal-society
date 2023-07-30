@@ -52,7 +52,7 @@
 } 
 @media only screen and (max-width: 640px) {
   .slide img{
-    height: 140px;
+    height: 150px;
     /* width: 80%; */
   }
   .arrow {
