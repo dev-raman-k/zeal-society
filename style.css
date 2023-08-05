@@ -26,7 +26,7 @@ body {
 
 header {
   width: 100%;
-  position: relative;
+  position: fixed;
   z-index: 4;
   height: 90px;
   background: #032646;
@@ -57,9 +57,6 @@ header {
 
 .hamburger {
   display: none;
-}
-header {
-  position: fixed;
 }
 
 .nav-bar ul {
@@ -177,11 +174,13 @@ header {
   color: #fefefe;
 }
 canvas {
+  height: 100%;
+  top: 90px;
   z-index: -1;
   width: 100%;
-  background: #032e51;
+  background: #3b5870;
   /* background-color:#032E51; */
-  height: 810px;
+  /* height: 810px; */
   position: absolute;
   opacity: 0.2;
 }
