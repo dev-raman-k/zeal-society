@@ -198,9 +198,9 @@ canvas {
   .banner .society-heading .society {
     font-size: 90px;
   }
-  /* canvas {
-    height: 300px;
-  } */
+  canvas {
+    height: 500px;
+  }
 }
 
 .empty {
