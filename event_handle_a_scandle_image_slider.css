@@ -10,22 +10,22 @@
 }
 @keyframes changeBack {
   0% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0097.jpg);
+    background-image: url(assets/Handle_A_Scandal/1.png);
   }
   16.67% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0085.jpg);
+    background-image: url(assets/Handle_A_Scandal/1.png);
   }
   33.33% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0086.jpg);
+    background-image: url(assets/Handle_A_Scandal/2.png);
   }
   50% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0093.jpg);
+    background-image: url(assets/Handle_A_Scandal/3.png);
   }
   66.66% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220916-WA0024.jpg);
+    background-image: url(assets/Handle_A_Scandal/4.png);
   }
   100% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0101.jpg);
+    background-image: url(assets/Handle_A_Scandal/5.png);
   }
 }
 @media only screen and (max-width: 900px) {

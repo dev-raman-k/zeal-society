@@ -1,4 +1,4 @@
-/* .slide {
+.slide {
   height: 350px;
   background-size: contain;
   background-position: center;
@@ -10,22 +10,16 @@
 }
 @keyframes changeBack {
   0% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0097.jpg);
-  }
-  16.67% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0085.jpg);
+    background-image: url(assets/Tale_A_Snap/1.png);
   }
   33.33% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0086.jpg);
-  }
-  50% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0093.jpg);
+    background-image: url(assets/Tale_A_Snap/2.png);
   }
   66.66% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220916-WA0024.jpg);
+    background-image: url(assets/Tale_A_Snap/3.png);
   }
   100% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0101.jpg);
+    background-image: url(assets/Tale_A_Snap/4.png);
   }
 }
 @media only screen and (max-width: 900px) {
@@ -34,17 +28,17 @@
     margin-right: 20px;
     height: 250px;
   }
-} */
-@media only screen and (max-width: 900px) {
+}
+/* @media only screen and (max-width: 900px) {
   .slide img{
     height: 250px;
-    /* width: 80%; */
+    /* width: 80%; 
   }
 } 
 @media only screen and (max-width: 640px) {
   .slide img{
     height: 150px;
-    /* width: 80%; */
+    /* width: 80%; 
   }
   .arrow {
     font-size: 15px;
@@ -53,11 +47,11 @@
 @media only screen and (max-width: 640px) {
   .slide img{
     height: 150px;
-    /* width: 80%; */
+    /* width: 80%; 
   }
   .arrow {
     border-radius: 100%;
     padding: 8px 15px;
     font-size: 15px;
   }
-} 
+}  */
