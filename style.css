@@ -833,7 +833,7 @@ footer {
 
 
 
-#overlay {
+#dev-overlay, #ui-overlay, #con-overlay {
   position: fixed;
   display: none;
   width: 100%;
@@ -846,11 +846,18 @@ footer {
   z-index: 2;
   cursor: pointer;
 }
+.team-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .team-members {
+  width: 230px;
+  margin: 5px;
   text-align: center;
   justify-content: center;
   align-items: center;
-  display: flex;
+  display: grid;
   font-size: 18px;
   padding: 7px 11px;
   border-radius: 5px;
@@ -861,7 +868,9 @@ footer {
   display: flex;
   flex-direction: row;
 }
+
 .dev-modal-box ul li {
+  padding: 5px 10px;
   list-style: none;
   margin-top: 20px;
   color: white;
@@ -894,9 +903,9 @@ footer {
   -ms-transform: translate(-50%,-50%);
 }
 @media only screen and (max-width: 450px) {
-  #overlay {
+  /* #dev-overlay, #ui-overlay, #con-overlay {
     position: absolute;
-  }
+  } */
   .members {
     flex-direction: column;
   }

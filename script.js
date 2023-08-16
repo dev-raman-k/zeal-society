@@ -112,10 +112,24 @@ window.addEventListener(
   }, 2500)
 );
 
-function on() {
-  document.getElementById("overlay").style.display = "block";
+function devon() {
+  document.getElementById("dev-overlay").style.display = "block";
 }
 
-function off() {
-  document.getElementById("overlay").style.display = "none";
+function devoff() {
+  document.getElementById("dev-overlay").style.display = "none";
+}
+function uion() {
+  document.getElementById("ui-overlay").style.display = "block";
+}
+
+function uioff() {
+  document.getElementById("ui-overlay").style.display = "none";
+}
+function conon() {
+  document.getElementById("con-overlay").style.display = "block";
+}
+
+function conoff() {
+  document.getElementById("con-overlay").style.display = "none";
 }
