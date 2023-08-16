@@ -111,3 +111,11 @@ window.addEventListener(
     (loader.style.display = "none"), (bdy.style.overflow = "auto");
   }, 2500)
 );
+
+function on() {
+  document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlay").style.display = "none";
+}
