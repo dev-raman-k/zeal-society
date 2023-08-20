@@ -16,7 +16,7 @@
   height: 600px;
 }
 
-.inner-container h1{
+.inner-container h1 {
   margin-bottom: 30px;
   font-size: 30px;
   color: #f1f1f1;
@@ -42,8 +42,8 @@
   margin-bottom: 40px;
 }
 
-.inner-container:hover{
-    transform: scale(1.15);
+.inner-container:hover {
+  transform: scale(1.15);
 }
 @media screen and (max-width: 1200px) {
   .inner-container {

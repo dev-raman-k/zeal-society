@@ -21,7 +21,6 @@ a:link {
   text-align: center;
 }
 .z-row {
-
   width: 100%;
   margin: 0;
   display: flex;
@@ -67,7 +66,7 @@ img {
   --c: #7b3b3b;
 
   width: var(--w);
-  
+
   aspect-ratio: 1;
 
   object-fit: cover;

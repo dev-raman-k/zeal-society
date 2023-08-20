@@ -178,7 +178,7 @@ canvas {
   top: 90px;
   z-index: -1;
   width: 100%;
-  background: #032E51;
+  background: #032e51;
   /* background-color:#032E51; */
   /* height: 810px; */
   position: absolute;
@@ -836,9 +836,9 @@ footer {
   }
 }
 
-
-
-#dev-overlay, #ui-overlay, #con-overlay {
+#dev-overlay,
+#ui-overlay,
+#con-overlay {
   position: fixed;
   display: none;
   width: 100%;
@@ -847,7 +847,7 @@ footer {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 2;
   cursor: pointer;
 }
@@ -879,8 +879,7 @@ footer {
   border: 3px solid #4caf50;
 }
 
-.members
-{
+.members {
   display: flex;
   flex-direction: row;
 }
@@ -910,13 +909,13 @@ footer {
   padding: 6px 12px;
   margin: 0 10px;
 }
-.dev-section{
+.dev-section {
   font-family: "Poppins", sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 @media only screen and (max-width: 450px) {
   /* #dev-overlay, #ui-overlay, #con-overlay {
