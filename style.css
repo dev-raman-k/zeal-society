@@ -375,7 +375,7 @@ body {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  animation: changeImage 10s infinite;
+  animation: changeImage 20s infinite;
   border-radius: 15px;
   transition: transform 0.3s ease;
   animation-fill-mode: forwards;
@@ -383,17 +383,22 @@ body {
 
 @keyframes changeImage {
   0% {
-    background-image: url(assets/Handle_A_Scandal/Handle_A_Scandal_cover.jpeg);
+    background-image: url(assets/Aim/2.jpg);
+  }
+  16.67% {
+    background-image: url(/assets/Aim/2.jpg);
   }
   33.33% {
-    background-image: url(/assets/Tale_A_Snap/tale_a_snap_cover.jpeg);
+    background-image: url(/assets/Aim/1.jpg);
   }
-
+  50% {
+    background-image: url(/assets/Aim/3.jpg);
+  }
   66.66% {
-    background-image: url(/assets/Treasure_Hunt/treasure_hunt_cover.jpeg);
+    background-image: url(/assets/Aim/4.jpg);
   }
   100% {
-    background-image: url(/assets/Indian_Youth_parliament/cover.png);
+    background-image: url(/assets/Aim/5.jpg);
   }
 }
 
