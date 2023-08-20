@@ -865,9 +865,20 @@ footer {
   display: grid;
   font-size: 18px;
   padding: 7px 11px;
+  border: 3px ridge #032646;
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.2s ease-in-out;
 }
+.team-members:hover {
+  background-color: #032646;
+  color: #8beaff;
+  border: 3px solid #fefefe;
+}
+.team-members:active {
+  border: 3px solid #4caf50;
+}
+
 .members
 {
   display: flex;
