@@ -3,29 +3,38 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  animation: changeBack 20s infinite;
+  animation: changeBack 25s infinite;
   border-radius: 15px;
   transition: transform 0.3s ease;
   animation-fill-mode: forwards;
 }
 @keyframes changeBack {
   0% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0097.jpg);
+    background-image: url(assets/National_Youth_Parliament/1.jpg);
   }
-  16.67% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0085.jpg);
+  12% {
+    background-image: url(assets/National_Youth_Parliament/1.jpg);
   }
-  33.33% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0086.jpg);
+  24% {
+    background-image: url(assets/National_Youth_Parliament/2.jpg);
   }
-  50% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0093.jpg);
+  36% {
+    background-image: url(assets/National_Youth_Parliament/3.jpg);
   }
-  66.66% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220916-WA0024.jpg);
+  48% {
+    background-image: url(assets/National_Youth_Parliament/4.jpg);
+  }
+  60% {
+    background-image: url(assets/National_Youth_Parliament/5.jpg);
+  }
+  72% {
+    background-image: url(assets/National_Youth_Parliament/6.jpg);
+  }
+  84% {
+    background-image: url(assets/National_Youth_Parliament/7.jpg);
   }
   100% {
-    background-image: url(assets/Indian_Youth_parliament/IMG-20220917-WA0101.jpg);
+    background-image: url(assets/National_Youth_Parliament/8.jpg);
   }
 }
 @media only screen and (max-width: 900px) {
