@@ -3,38 +3,47 @@
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  animation: changeBack 20s infinite;
+  animation: changeBack 45s infinite;
   border-radius: 15px;
   transition: transform 0.3s ease;
   animation-fill-mode: forwards;
 }
 @keyframes changeBack {
   0% {
-    background-image: url(assets/Treasure_Hunt/1.jpg);
+    background-image: url(assets/Treasure_Hunt/1.png);
   }
-  12% {
-    background-image: url(assets/Treasure_Hunt/1.jpg);
+  9% {
+    background-image: url(assets/Treasure_Hunt/1.png);
   }
-  24% {
-    background-image: url(assets/Treasure_Hunt/3.jpg);
+  18% {
+    background-image: url(assets/Treasure_Hunt/2.png);
+  }
+  27% {
+    background-image: url(assets/Treasure_Hunt/3.png);
   }
   36% {
-    background-image: url(assets/Treasure_Hunt/4.jpg);
+    background-image: url(assets/Treasure_Hunt/4.png);
   }
-  48% {
-    background-image: url(assets/Treasure_Hunt/2.jpg);
+  45% {
+    background-image: url(assets/Treasure_Hunt/5.png);
   }
-  60% {
-    background-image: url(assets/Treasure_Hunt/5.jpg);
+  54% {
+    background-image: url(assets/Treasure_Hunt/6.png);
+  }
+  63% {
+    background-image: url(assets/Treasure_Hunt/7.png);
   }
   72% {
-    background-image: url(assets/Treasure_Hunt/6.jpg);
+    background-image: url(assets/Treasure_Hunt/8.png);
   }
-  84% {
-    background-image: url(assets/Treasure_Hunt/7.jpg);
+  81% {
+    background-image: url(assets/Treasure_Hunt/9.png);
+  }
+  90% {
+    background-image: url(assets/Treasure_Hunt/10.png);
   }
   100% {
-    background-image: url(assets/Treasure_Hunt/8.jpg);
+    background-image: url(assets/Treasure_Hunt/11.png);
   }
 }
 @media only screen and (max-width: 900px) {
