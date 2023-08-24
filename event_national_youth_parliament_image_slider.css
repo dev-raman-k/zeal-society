@@ -12,25 +12,28 @@
   0% {
     background-image: url(assets/National_Youth_Parliament/1.jpg);
   }
-  12% {
+  10% {
     background-image: url(assets/National_Youth_Parliament/1.jpg);
   }
-  24% {
+  20% {
     background-image: url(assets/National_Youth_Parliament/2.jpg);
   }
-  36% {
+  30% {
     background-image: url(assets/National_Youth_Parliament/3.jpg);
   }
-  48% {
+  40% {
+    background-image: url(assets/National_Youth_Parliament/9.png);
+  }
+  50% {
     background-image: url(assets/National_Youth_Parliament/4.jpg);
   }
   60% {
     background-image: url(assets/National_Youth_Parliament/5.jpg);
   }
-  72% {
+  70% {
     background-image: url(assets/National_Youth_Parliament/6.jpg);
   }
-  84% {
+  90% {
     background-image: url(assets/National_Youth_Parliament/7.jpg);
   }
   100% {
