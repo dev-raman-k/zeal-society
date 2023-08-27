@@ -30,7 +30,7 @@ window.onload = function (argument) {
       this.text = key;
       this.x = Math.random() * w;
       this.y = Math.random() * h;
-      this.font = words[key] * 30 + "px arial";
+      this.font = words[key] * 20 + "px arial";
 
       this.speed = words[key];
     };
@@ -55,7 +55,7 @@ window.onload = function (argument) {
           words_attr[i].x = -words_attr[i].width;
           words_attr[i].y = Math.random() * h;
         } else {
-          words_attr[i].x += words_attr[i].speed*3;
+          words_attr[i].x += words_attr[i].speed*2.5;
         }
       }
     }
