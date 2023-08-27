@@ -331,7 +331,7 @@ body {
 }
 #faculty img {
   height: 400px;
-  width: 320px;
+  width: 400px;
 }
 .faculty-msg {
   padding: 10px;
@@ -411,6 +411,13 @@ body {
 .aimLeft {
   width: 50%;
 }
+.aim-head {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .aimLeft p {
   text-align: justify;
   font-size: 22px;
@@ -436,6 +443,10 @@ body {
   .aimLeft p {
     font-size: 22px;
   }
+  .aimRect {
+    padding: 0;
+    flex-flow: column;
+  }
   .aboutRect .aboutText {
     font-size: 20px;
   }
@@ -459,19 +470,17 @@ body {
   }
 }
 @media only screen and (max-width: 470px) {
-  .aimRect {
-    padding: 0;
-    flex-flow: column;
-  }
+  
   .aimRight,
   .aimLeft {
-    width: 80%;
+    width: 90%;
   }
   .aboutUs {
     font-size: 20px;
   }
   .aimLeft p {
     font-size: 20px;
+    padding-bottom: 40px;
   }
   #faculty img {
     height: 280px;
