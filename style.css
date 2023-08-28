@@ -542,8 +542,11 @@ img {
 .event-card img:hover {
   transform: scale(1.05);
 }
-
+.team-card img {
+  border: 2px ridge #fefefe;
+}
 .team-card img:hover {
+  border: 4px ridge #3595dd;
   transform: scale(1.05);
 }
 
