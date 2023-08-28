@@ -314,7 +314,7 @@ body {
 }
 
 .facRect {
-  
+  border: 4px ridge #3595dd;
   margin: 20px;
   /* max-width: 8000px; */
   justify-content: center;
@@ -322,7 +322,7 @@ body {
   background: #406e8e;
   /* margin-top: 20px; */
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 #faculty {
   display: flex;
